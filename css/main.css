@@ -1,0 +1,215 @@
+/****** DEFAULT STYLE ******/
+
+body {
+    background: #5D91A4;
+    color: #E9EAEC;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h1, h2, nav {
+    font-family: 'Bree-Serif', serif;
+}
+
+h2 {
+    color: #AE6F41;
+    font-size: 36px;
+}
+
+h1, span {
+    color: #D2691E;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+
+.highlightme {
+    background-color: #C98D26;
+    color: #E9EAEC;
+    font-family: 'Bree-Serif';
+    letter-spacing: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 25px;
+}
+
+/****** GRID ******/
+
+/* creation of the columns for the entire web page*/
+.full-width {
+    margin: 0 auto;
+    max-width: 1200px; /* constrains to a certain width*/
+    overflow: auto;
+}
+
+.email .socialmedia {
+    width: 600px;
+    float: left;
+}
+
+/****** HEADER ******/
+
+header h1, h2 {
+    text-align: center;
+}
+
+header {
+    background: url('../img/daniel-oberg-41Wuv1xsmGM-unsplash.jpg');
+    background-size: cover;
+    background-position: center; 
+    height: 800px;
+    padding: 100px; /* adjusted the image so that it sits appropriately on the page */
+}
+
+nav {
+    float: right;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a { /* must include the a to have the underline links removed from navigation */
+    background-color: #C98D26 /*#f4f7f4*/;
+    color: #E9EAEC;
+    font-size: 24px;
+    margin-right: 30px;
+    padding: 10px; /* created space between each navigation item */
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+header h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#heading-subtitle {
+    font-size: 48px;
+}
+
+
+/****** WORK ******/ 
+
+/* set fixed heights for work, about and contact*/
+#my-portfolio {
+    height: 1200px;
+}
+
+#my-portfolio h2 {
+    margin-top: 0;
+    padding-top: 25px;
+}
+
+#my-portfolio h3 {
+    font-weight: 700;
+}
+
+.project-thumbnail {
+    width: auto;
+    float: left;
+    padding: 0 50px;
+}
+
+.rogue, .bonus-recipe-card {
+    clear: both;
+}
+
+.project-thumbnail img {
+    margin-bottom: 50px;
+}
+
+.project-description h3 p {
+    vertical-align: top;
+}
+
+/****** ABOUT ******/
+
+#about-me {
+    background: #8AB2BE;
+    height: 900px;
+}
+
+#about-me .full-width {
+    padding: 10px 0;
+}
+
+#about-me h2 {
+    margin-top: 0;
+    padding-top: 25px;
+}
+
+#about-me img {
+    width: auto;
+    float: left;
+    padding: 0 50px; /* provided spacing between image and list */
+}
+
+#about-me ul {
+    color: #D2691E;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    list-style-type: square;
+}
+
+/****** FOOTER & CONTACT ******/
+
+#lets-connect {
+    background: #AEC6CF;
+}
+
+#lets-connect .email {
+    float: left;
+    margin-left: 50px;
+}
+
+#lets-connect .socialmedia {
+    float: right;
+}
+
+#lets-connect h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+#lets-connect ul {
+    list-style: none;
+}
+
+#lets-connect li {
+    display: inline-block;
+}
+
+#lets-connect .email ul {
+    padding-left: 0; /* shifted the email icons to the left*/
+}
+
+#lets-connect .email img {
+    padding: 0 20px; /* seems to only move the gmail icon*/
+}
+
+#lets-connect .socialmedia img {
+    padding: 0 50px;
+}
+
+#copyright {
+    clear: both;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    letter-spacing: 5px;
+    padding-top: 200px;
+    text-align: center;
+    text-transform: uppercase;
+}
